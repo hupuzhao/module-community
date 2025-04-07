@@ -127,7 +127,7 @@ final class Section
             }
 
             if ($module == ('B' . 'l' . 'o' . 'g')
-                && version_compare($this->getModuleVersion->execute('Ma' . 'ge' . 'fa' . 'n_' . $module), '2.' . '11' . '.4', '>=')
+                && version_compare($this->getModuleVersion->execute('Ma' . 'ge' . 'fa' . 'n_' . $module), '2.' . '12' . '.4', '>=')
                 && $this->hyvaThemeDetection->execute()
             ) {
                 return $module;
